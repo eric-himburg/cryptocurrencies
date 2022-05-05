@@ -3,7 +3,7 @@
 
 ## Coding
 
-![PySpark was used to extract the dataset](screenshots/vine_review2.png)
+![First the cryptocurrency dataset was cleaned](screenshots/crypto1.png)
 
 
 ## Results
