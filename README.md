@@ -12,7 +12,8 @@ There were four steps to the coding performed to classify the cryptocurrency dat
 
 ![Second the cryptocurrency dataset was reduded using PCA](screenshots/crypto2.png)
 
-3. Clustering Cryptocurrencies Using K-means - 
+3. Clustering Cryptocurrencies Using K-means - patterns can be found in data using unsupervised learning and clustering is the most popular unsupervised learning algorithm.  Data points are put in clusters based on their similarity. K-Means is the most popular clustering algorithm and it uses centroids to group data into K clusters. Data in each cluster are grouped so the average distance to their centroid is minimized.  The screenshot below shows the portion of the code where the K-means algorithm is being used on the reduced dataset.
+
 
 ![Third the cryptocurrency dataset clusted using K-means](screenshots/crypto3.png)
 
