@@ -17,17 +17,13 @@ There were four steps to the coding performed to classify the cryptocurrency dat
 
 ![Third the cryptocurrency dataset clusted using K-means](screenshots/crypto3.png)
 
-4. Visualizing Cryptocurrencies Results - the results of the clustering were graphed on 2-D and 3-D plots.  The 2-D plot below shows the   
+4. Visualizing Cryptocurrencies Results - the results of the clustering were graphed on 2-D and 3-D plots.  The 2-D plot below shows the Total Coins Supplied versus Total Coins Mined for each cryptocurrency.  The color in the plot shows the cryptocurrencies were placed in four groups.  Two cryptocurrencies stand out in this plot - TurtleCoin and BitTorrent.  The 3-D plot underneath it shows the location of each cryptocurrency based on the the three components created using PCA.  It is easier to see the four clusters in the 3-D plot and that one cryptocurrency (BitTorrent) is in a class by itself.     
 
 ![Fourth the results were visualized -2D plot shown here](screenshots/crypto4.png)
 
 ![3D plot showing the four cryptocurrency classifications](screenshots/crypto5.png)
 
 ## Results
-
-  
-
-
-
+Unsupervised maching learning was successful at grouping tradable cryptocurrencies into four groups.  From the 2-D plot of total coins supplied versus total coins mined two cryptocurrencies stood out - TurtleCoin and BitTorrent.  TurtleCoin, while still part of a cluster, has a lot of supply and a low level of being mined.  BitTorrent has a large supply and a high level of mining.  While this is a good start to modeling cryptocurrency, further analysis of the clusters should be performed before using this data for investment purposes.    
 
 
