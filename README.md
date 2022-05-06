@@ -15,7 +15,7 @@ There were four steps to the coding performed to classify the cryptocurrency dat
 3. Clustering Cryptocurrencies Using K-means - patterns can be found in data using unsupervised learning and clustering is the most popular unsupervised learning algorithm.  Data points are put in clusters based on their similarity. K-Means is the most popular clustering algorithm and it uses centroids to group data into K clusters. Data in each cluster are grouped so the average distance to their centroid is minimized.  The screenshot below shows the portion of the code where the K-means algorithm is being used on the reduced dataset.
 
 
-![Third the cryptocurrency dataset clusted using K-means](screenshots/crypto3.png)
+![Third the cryptocurrency dataset clusted using K-means](screenshots/crypto4.png)
 
 4. Visualizing Cryptocurrencies Results - the results of the clustering were graphed on 2-D and 3-D plots.  The 2-D plot below shows the Total Coins Supplied versus Total Coins Mined for each cryptocurrency.  The color in the plot shows the cryptocurrencies were placed in four groups.  Two cryptocurrencies stand out in this plot - TurtleCoin and BitTorrent.  The 3-D plot underneath it shows the location of each cryptocurrency based on the the three components created using PCA.  It is easier to see the four clusters in the 3-D plot and that one cryptocurrency (BitTorrent) is in a class by itself.     
 
