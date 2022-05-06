@@ -17,10 +17,11 @@ There were four steps to the coding performed to classify the cryptocurrency dat
 
 ![Third the cryptocurrency dataset clusted using K-means](screenshots/crypto3.png)
 
-4. Visualizing Cryptocurrencies Results
+4. Visualizing Cryptocurrencies Results - the results of the clustering were graphed on 2-D and 3-D plots.  The 2-D plot below shows the   
 
-![Fourth the results were visualized](screenshots/crypto4.png)
+![Fourth the results were visualized -2D plot shown here](screenshots/crypto4.png)
 
+![3D plot showing the four cryptocurrency classifications](screenshots/crypto5.png)
 
 ## Results
 
