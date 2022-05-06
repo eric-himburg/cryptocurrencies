@@ -4,14 +4,21 @@ An analysis of what cryptocurrencies are currently tradable on the market and ho
 
 ## Coding
 There were four steps to the coding performed to classify the cryptocurrency data.  
-* Preprocessing the Data for PCA - 
+1. Preprocessing the Data - in order toe ensure the data could easily be fit to a clustering model, it was necessary to remove unrelevant data columns and rows of data which had missing information.  The screenshot below shows a part of the Python code used to remove cryptocurrencies that aren't currently being traded.  
 
 ![First the cryptocurrency dataset was cleaned](screenshots/crypto1.png)
 
-* Reducing Data Dimensions Using PCA
-* Clustering Cryptocurrencies Using K-means
-* Visualizing Cryptocurrencies Results
+2. Reducing Data Dimensions Using PCA - since there was a large amount of cryptocurrency data, it was necessary to transform it from a large set of variables into a smaller one.  To this end, Principal Component Analysis or PCA was performed on the cleaned data set.  Reducing the number of variables of a data set reduces the accuracy, but makes the data much more simple to process. Ultimately the accuracy lost in the data was minimal and made analyzing data easier and faster for our machine learning algorithm.  The screenshot below shows a portion of the code where the cleaned dataset was reduced using PCA. 
 
+![Second the cryptocurrency dataset was reduded using PCA](screenshots/crypto2.png)
+
+3. Clustering Cryptocurrencies Using K-means - 
+
+![Third the cryptocurrency dataset clusted using K-means](screenshots/crypto3.png)
+
+4. Visualizing Cryptocurrencies Results
+
+![Fourth the results were visualized](screenshots/crypto4.png)
 
 
 ## Results
